@@ -33,7 +33,7 @@ Zaawansowany program pocztowy obs³uguj±cy w±tki i typy MIME.
 
 %build
 %{__gettextize}
-aclocal
+%{__aclocal}
 %{__autoconf}
 %configure
 %{__make}
