@@ -11,12 +11,11 @@ URL:		http://www.isengard-dev.org/
 BuildRequires:	gtk+-devel >= 1.2.6
 BuildRequires:	gnome-libs-devel >= 1.0.50
 BuildRequires:	gettext-devel
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
 %define		_sysconfdir	/etc/X11/GNOME
 %define		_localstatedir	/var
-%define		_applnkdir	%{_datadir}/applnk
 
 %description
 An advanced multi-threaded MIME-aware email application.
