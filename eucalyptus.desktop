@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Eucalyptus
+Comment=Advanced MIME e-mail program
+Comment[pl]=Klient poczty z obs³ug± MIME
+Exec=eucalyptus
+Icon=eucalyptus-logo.png
+Terminal=0
+Type=Application
