@@ -10,7 +10,7 @@ Source1:	%{name}.desktop
 URL:		http://www.isengard-dev.org/
 BuildRequires:	gtk+-devel >= 1.2.6
 BuildRequires:	gnome-libs-devel >= 1.0.50
-BuildRequires:	gettextize-devel
+BuildRequires:	gettext-devel
 BuildRoot:	/tmp/%{name}-%{version}-root
 
 %define		_prefix		/usr/X11R6
