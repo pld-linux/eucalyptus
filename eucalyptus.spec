@@ -32,7 +32,7 @@ Zaawansowany program pocztowy obs³uguj±cy w±tki i typy MIME.
 %patch0 -p1
 
 %build
-gettextize --copy --force
+%{__gettextize}
 aclocal
 %{__autoconf}
 %configure
