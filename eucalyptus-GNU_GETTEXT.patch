@@ -1,0 +1,11 @@
+--- ./configure.in.org	Sun Oct  7 16:36:47 2001
++++ ./configure.in	Sun Oct  7 16:37:02 2001
+@@ -18,7 +18,7 @@
+ 
+ dnl internationalization support
+ ALL_LINGUAS=""
+-AM_GNOME_GETTEXT
++AM_GNU_GETTEXT
+ 
+ dnl ******************************
+ dnl Check for gdk-pixbuf
