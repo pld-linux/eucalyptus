@@ -21,6 +21,9 @@ BuildRoot:	/tmp/%{name}-%{version}-root
 %description
 An advanced multi-threaded MIME-aware email application.
 
+%description -l pl
+Zaawansowany program pocztowy obs³uguj±cy w±tki i typy MIME.
+
 %prep
 %setup -q
 %build
