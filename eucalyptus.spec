@@ -48,5 +48,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc *.gz
 %attr(755,root,root) %{_bindir}/eucalyptus
-%{_datadir}/pixmaps/eucalyptus-logo.png
+%{_pixmapsdir}/eucalyptus-logo.png
 %{_applnkdir}/Internet/eucalyptus.desktop
