@@ -28,13 +28,14 @@ Zaawansowany program pocztowy obs³uguj±cy w±tki i typy MIME.
 %setup -q
 %build
 gettextize --copy --force
-LDFLAGS="-s"; export LDFLAGS
 %configure
 %{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%{__make} DESTDIR=$RPM_BUILD_ROOT install
+
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 gzip -9nf AUTHORS ChangeLog NEWS README TODO
 
