@@ -1,10 +1,15 @@
 Summary:	The Eucalyptus Email Application
+Summary(pl):	Program pocztowy Eucalyptus
 Name:		eucalyptus
 Version:	0.1.6
 Release:	1
 License:	GPL
-Group:		X11/GNOME/Applications
-Group(pl):	X11/GNOME/Aplikacje
+Group:		X11/Applications
+Group(de):	X11/Applikationen
+Group(es):	X11/Aplicaciones
+Group(pl):	X11/Aplikacje
+Group(pt_BR):	X11/Aplicações
+Group(pt):	X11/Aplicações
 Vendor:		Paul Schifferer <gandalf@isengard-dev.org>
 Source0:	http://www.isengard-dev.org/download/linux/%{name}-%{version}.tar.gz
 Source1:	%{name}.desktop
@@ -30,6 +35,7 @@ Zaawansowany program pocztowy obs³uguj±cy w±tki i typy MIME.
 %prep
 %setup -q
 %patch0 -p1
+
 %build
 gettextize --copy --force
 aclocal
