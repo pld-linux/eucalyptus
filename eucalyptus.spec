@@ -34,7 +34,7 @@ Zaawansowany program pocztowy obs³uguj±cy w±tki i typy MIME.
 %build
 gettextize --copy --force
 aclocal
-autoconf
+%{__autoconf}
 %configure
 %{__make}
 
