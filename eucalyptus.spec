@@ -7,6 +7,7 @@ License:	GPL
 Group:		X11/Applications
 Vendor:		Paul Schifferer <gandalf@isengard-dev.org>
 Source0:	http://www.isengard-dev.org/download/linux/%{name}-%{version}.tar.gz
+# Source0-md5:	81a5087fa0c8f8f4ea00cac3e17b7914
 Source1:	%{name}.desktop
 Patch0:		%{name}-GNU_GETTEXT.patch
 URL:		http://www.isengard-dev.org/
