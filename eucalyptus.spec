@@ -8,10 +8,13 @@ Group(pl):	X11/GNOME/Aplikacje
 Vendor:		Paul Schifferer <gandalf@isengard-dev.org>
 Source0:	http://www.isengard-dev.org/download/linux/%{name}-%{version}.tar.gz
 Source1:	%{name}.desktop
+Patch0:		%{name}-GNU_GETTEXT.patch
 URL:		http://www.isengard-dev.org/
 BuildRequires:	gtk+-devel >= 1.2.6
 BuildRequires:	gnome-libs-devel >= 1.0.50
 BuildRequires:	gettext-devel
+BuildRequires:	automake
+BuildRequires:	autoconf
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
@@ -26,8 +29,11 @@ Zaawansowany program pocztowy obs³uguj±cy w±tki i typy MIME.
 
 %prep
 %setup -q
+%patch0 -p1
 %build
 gettextize --copy --force
+aclocal
+autoconf
 %configure
 %{__make}
 
