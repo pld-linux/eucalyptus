@@ -4,8 +4,9 @@ Version:	0.1.6
 Release:	1
 License:	GPL
 Group:		X11/GNOME/Applications
+Group(pl):	X11/GNOME/Aplikacje
 Vendor:		Paul Schifferer <gandalf@isengard-dev.org>
-Source:		http://www.isengard-dev.org/download/linux/%{name}-%{version}.tar.gz
+Source0:	http://www.isengard-dev.org/download/linux/%{name}-%{version}.tar.gz
 Source1:	%{name}.desktop
 URL:		http://www.isengard-dev.org/
 BuildRequires:	gtk+-devel >= 1.2.6
