@@ -1,5 +1,5 @@
 Summary:	The Eucalyptus Email Application
-Summary(pl.UTF-8):   Program pocztowy Eucalyptus
+Summary(pl.UTF-8):	Program pocztowy Eucalyptus
 Name:		eucalyptus
 Version:	0.1.6
 Release:	1
