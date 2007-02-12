@@ -1,5 +1,5 @@
 Summary:	The Eucalyptus Email Application
-Summary(pl):	Program pocztowy Eucalyptus
+Summary(pl.UTF-8):   Program pocztowy Eucalyptus
 Name:		eucalyptus
 Version:	0.1.6
 Release:	1
@@ -24,8 +24,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 An advanced multi-threaded MIME-aware email application.
 
-%description -l pl
-Zaawansowany program pocztowy obs³uguj±cy w±tki i typy MIME.
+%description -l pl.UTF-8
+Zaawansowany program pocztowy obsÅ‚ugujÄ…cy wÄ…tki i typy MIME.
 
 %prep
 %setup -q
