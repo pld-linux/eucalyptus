@@ -4,18 +4,17 @@ Name:		eucalyptus
 Version:	0.1.6
 Release:	1
 License:	GPL
-Group:		X11/Applications
-Vendor:		Paul Schifferer <gandalf@isengard-dev.org>
+Group:		X11/Applications/Mail
 Source0:	http://www.isengard-dev.org/download/linux/%{name}-%{version}.tar.gz
 # Source0-md5:	81a5087fa0c8f8f4ea00cac3e17b7914
 Source1:	%{name}.desktop
 Patch0:		%{name}-GNU_GETTEXT.patch
 URL:		http://www.isengard-dev.org/
-BuildRequires:	gtk+-devel >= 1.2.6
-BuildRequires:	gnome-libs-devel >= 1.0.50
-BuildRequires:	gettext-devel
-BuildRequires:	automake
 BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	gettext-devel
+BuildRequires:	gnome-libs-devel >= 1.0.50
+BuildRequires:	gtk+-devel >= 1.2.6
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_sysconfdir	/etc/X11/GNOME
