@@ -12,7 +12,7 @@ Patch0:		%{name}-GNU_GETTEXT.patch
 URL:		http://www.isengard-dev.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	gnome-libs-devel >= 1.0.50
 BuildRequires:	gtk+-devel >= 1.2.6
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
